@@ -5,7 +5,7 @@ silk_starting_dir=$(dirname $PWD)
 silk_gcc=1
 silk_compiler="${CC:-gcc}"
 silk_run=1
-silk_file="$(realpath -- silk.c)"  # Source file name to compile
+silk_file="$(realpath -- silkfile.c)"  # Source file name to compile
 silk_output="./silk.bin"           # Executable name
 silk_include_dir="$silk_root/"     # Include directory to locate the silk.h file
 
@@ -21,7 +21,7 @@ while (( "$#" )); do
     shift
 done
 
-# Extract parent directory of the silk.c file path
+# Extract parent directory of the silkfile.c file path
 silk_dir=${silk_file%/*}
 # Extract filename of the file path
 silk_filename=$(basename "$silk_file")

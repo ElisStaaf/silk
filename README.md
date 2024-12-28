@@ -8,11 +8,6 @@ projects. In this case the only language we need is C.
 sudo ./install.sh
 ```
 
-## Test
-```sh
-./tests.sh
-```
-
 ## Example
 ```c
 #define SILK_IMPLEMENTATION
