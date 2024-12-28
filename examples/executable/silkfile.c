@@ -1,6 +1,6 @@
 #define SILK_IMPLEMENTATION
 #include <silk.h>
-#include <silk_extensions/silk_assert.h>
+#include <silk/assert.h>
 
 int main(void)
 {
