@@ -1,7 +1,9 @@
 # Silk Build System
 Silk is the best build system ever. It originates from an idea that I believe originates from
 TSoding's nobuild.h project. The idea is that you shouldn't need another language to build your
-projects. In this case the only language we need is C.
+projects. In this case the only language we need is C. This is a minimalist's favourite build
+system, but I can't imagine it's much more than that. Nobuild never became popular, so I can't
+imagine this going mainstream. I personally might use it someday in my projects though ;)
 
 ## Install
 ```sh
@@ -14,7 +16,7 @@ sudo ./install.sh
 #include <silk.h>
 #include <silk/assert.h>
 
-int main(void)
+int main()
 {
     silk_init();
 
